@@ -11,6 +11,27 @@
 
 # Establecer el algoritmo del cálculo del porcentaje de descuento concedido a un cliente dado para un pedido dado.
 
-def microprocesadores(componentes, cliente):
-    if componentes > 10000 and componentes < 20000:
+def microprocesadores(componentes, cliente, precio):
+    if componentes >= 10000 and componentes <= 20000:
         descuento = 0.1
+        preciofinal = precio - precio*descuento
+        print(preciofinal)
+    elif componentes >= 20001 and componentes <= 40000:
+        descuento = 0.15
+        preciofinal = precio - precio*descuento
+        print(preciofinal)
+    else:
+        descuento = 0.2
+        preciofinal = precio - precio*descuento
+        print(preciofinal)
+        
+    if cliente == 1:
+        #cliente = 1 significa que es COMMAQ; sino, cliente = 0 no COMMAQ
+        descuento = 0.02
+        precioporcliente = preciofinal - preciofinal*descuento
+        print(precioporcliente)
+
+#si me pide por teclado:
+#componentes = int(input("ntr"))
+#microprocesadores(componentes, 0, 35000)
+microprocesadores(500000, 0, 35000)
