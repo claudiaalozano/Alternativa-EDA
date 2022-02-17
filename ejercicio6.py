@@ -18,11 +18,13 @@ def microprocesadores(componentes, cliente, precio):
         print(preciofinal)
     elif componentes >= 20001 and componentes <= 40000:
         descuento = 0.15
-        print("precio final:", precio - precio*descuento )
+        preciofinal = precio - precio*descuento
+        print(preciofinal)
     else:
         descuento = 0.2
-        print("precio final:", precio - precio*descuento )
-    
+        preciofinal = precio - precio*descuento
+        print(preciofinal)
+        
     if cliente == 1:
         #cliente = 1 significa que es COMMAQ; sino, cliente = 0 no COMMAQ
         descuento = 0.02
