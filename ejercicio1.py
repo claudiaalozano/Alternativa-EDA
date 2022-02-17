@@ -8,3 +8,7 @@
 
 dia= ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
 
+def dia(n):
+
+if __name__ == '__main__':
+    n= input("Escribe un dia de la semana: ")
