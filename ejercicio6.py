@@ -28,6 +28,7 @@ def microprocesadores(componentes, cliente, precio):
     if cliente == 1:
         #cliente = 1 significa que es COMMAQ; sino, cliente = 0 no COMMAQ
         descuento = 0.02
-        print("precio final:", precio - precio*descuento )
+        precioporcliente = preciofinal - preciofinal*descuento
+        print(precioporcliente)
 
 microprocesadores(500000, 0, 35000)
