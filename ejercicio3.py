@@ -5,7 +5,9 @@
 #Escribir el algoritmo de cálculo del importe del descuento en una compra dada.
 
 
-descuento(precio: 500): 500
+def descuento(precio):
     # Importe del descuento acordado sobre 'precio'
-if precio => 0:
-    
+    if precio < 0:
+        print("Error")
+    elif precio >= 0:
+        
