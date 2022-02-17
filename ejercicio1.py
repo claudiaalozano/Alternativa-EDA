@@ -6,12 +6,14 @@
 
 #Todavía no disponemos de las herramientas que nos permitirán dar una definición «elegante» de esta función. Lo haremos más adelante.
 
-dia= ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
-
-def dia(n):
-    if dia == "lunes"
-        return martes
+dias= ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
+dia = input("Escribe un dia de la semana: ")
+dias = True
+while dias == True:
+    
+    if dias == "lunes":
+        print("martes") 
+    if dias == "miercoles":
+        print("el dia siguiente es Jueves")
         
 
-if __name__ == '__main__':
-    n= input("Escribe un dia de la semana: ")
