@@ -21,6 +21,11 @@ prima_antiguedad = float (0.0)
 prima_distancia = float (0.0)
 accidentes= input ("¿Cuantos accidentes ha tenido?:")
 antiguedad = input ("¿Antiguedad del conductor?:")
+prima = 0
+if antiguedad < 4:
+    prima = prima
+if antiguedad >= 4:
+    prima= 200 + 20 * (antiguedad - 4)
 
 if accidentes > 3:
     resultado= float (0.0)
