@@ -31,4 +31,7 @@ def microprocesadores(componentes, cliente, precio):
         precioporcliente = preciofinal - preciofinal*descuento
         print(precioporcliente)
 
+#si me pide por teclado:
+#componentes = int(input("ntr"))
+#microprocesadores(componentes, 0, 35000)
 microprocesadores(500000, 0, 35000)
