@@ -56,5 +56,5 @@ if accidentes <= 3:
 
 
 
-print (resultado)
+print ("Su prima anual es :" , prima)
 
