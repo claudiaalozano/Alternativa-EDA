@@ -15,3 +15,46 @@
 #La prima de antigüedad solo se paga una vez transcurridos cuatro años de antigüedad y es de 200 €. Luego aumenta 20,00 € por año adicional.
 
 #Escribir el algoritmo de cálculo de la prima anual que se concederá a cada conductor.
+
+
+prima_antiguedad = float (0.0) 
+prima_distancia = float (0.0)
+accidentes= int(input("¿Cuantos accidentes ha tenido?:"))
+antiguedad = int(input ("¿Antiguedad del conductor?:"))
+kilometros= int(input ("Introduzca el número de kilometros que ha realizado:"))
+
+
+#antiguedad
+if antiguedad < 4:
+    prima_antiguedad = prima_antiguedad
+if antiguedad >= 4:
+    prima_antiguedad= 200 + 20 * (antiguedad - 4)
+
+#distancia recorrida
+kilometros = kilometros * 0.01 
+if kilometros > 400:
+    kilometros= 400
+    prima_distancia = 400
+if kilometros > 400:
+    kilometros = kilometros
+    prima_distancia = kilometros
+
+# accidentes
+prima= prima_antiguedad + prima_distancia
+
+if accidentes > 3:
+    prima= float (0.0)
+if accidentes <= 3:
+    if accidentes == 1:
+        prima = prima / 2
+    if accidentes == 2:
+        prima = prima / 3
+    if accidentes == 3: 
+        prima = prima / 4 
+            
+   
+
+
+
+print ("Su prima anual es :" , prima , "€")
+

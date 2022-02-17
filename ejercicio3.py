@@ -6,8 +6,19 @@
 
 
 def descuento(precio):
+    print("Precio inicial = 120. \n ")
     # Importe del descuento acordado sobre 'precio'
     if precio < 0:
         print("Error")
     elif precio >= 0:
-        
+        if precio < 100:
+            descuento = 0
+            print(precio)
+        elif precio < 500:
+            descuento = 0.05
+            print("Precio con el descuento aplicado = ", precio - descuento*precio)
+        else:
+            descuento = 0.08
+            print(precio - precio*descuento)
+descuento(120)
+
