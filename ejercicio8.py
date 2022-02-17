@@ -19,9 +19,9 @@
 
 prima_antiguedad = float (0.0) 
 prima_distancia = float (0.0)
-accidentes= input ("¿Cuantos accidentes ha tenido?:")
-antiguedad = input ("¿Antiguedad del conductor?:")
-kilometros= input ("Introduzca el número de kilometros que ha realizado:")
+accidentes= int(input("¿Cuantos accidentes ha tenido?:"))
+antiguedad = int(input ("¿Antiguedad del conductor?:"))
+kilometros= int(input ("Introduzca el número de kilometros que ha realizado:"))
 
 
 #antiguedad
