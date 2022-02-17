@@ -6,4 +6,5 @@
 
 #Todavía no disponemos de las herramientas que nos permitirán dar una definición «elegante» de esta función. Lo haremos más adelante.
 
-def Dia
+dia= ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
+
