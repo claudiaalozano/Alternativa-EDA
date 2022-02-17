@@ -1,3 +1,10 @@
+from array import array
 
 
-Así, por ejemplo, dados a = -15 y b = 6, se obtiene a x b < a < a + b < b cuyos sus valores son, en orden: -90, -15, -9 y 6.
+a= 5
+b= 6
+multiplicacion= a*b
+suma= a+b
+lista= [b,a,multiplicacion,suma]
+lista.sort()
+print(lista[0],'<',lista[1],'<',lista[2],'<', lista[3])
