@@ -24,7 +24,7 @@ for i in notas:
 suma = suma / 4
 if suma > 15:
     print ("Usted es un alumno con talento, su media de las cuatro notas es: " , suma)
-if 12< suma < 15 :
+if suma > 12 and suma < 15 :
     print (" Usted es un alumno con capacidad, su media total es: " , suma)
-if suma > 12:
+if suma < 12:
     print ("Usted debe reorientarse, su media es: " , suma) 
