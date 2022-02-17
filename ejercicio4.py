@@ -14,10 +14,10 @@ from cgi import print_directory
 
 
 notas = []
-nota1 = int(input("Introduce la primera nota: ")).append(notas) 
-nota2 = int(input("Introduce la segunda nota: ")).append(notas) 
-nota3 = int(input("Introduce la tercera nota: ")).append(notas) 
-nota4 = int(input("Introduce la cuarta nota: ")).append(notas) 
+nota1 = notas.append(int(input("Introduce la primera nota: ")))
+nota2 = notas.append(int(input("Introduce la segunda nota: ")))
+nota3 = notas.append(int(input("Introduce la tercera nota: "))) 
+nota4 = notas.append(int(input("Introduce la cuarta nota: "))) 
 suma = 0
 for i in notas: 
     suma = suma + i
