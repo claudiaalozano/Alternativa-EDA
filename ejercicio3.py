@@ -10,4 +10,10 @@ def descuento(precio):
     if precio < 0:
         print("Error")
     elif precio >= 0:
-        
+        if precio < 100:
+            descuento = 0
+        elif precio < 500:
+            descuento = 0.05
+        else:
+            descuento = 0.08
+            
