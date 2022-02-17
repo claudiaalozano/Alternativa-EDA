@@ -21,24 +21,40 @@ prima_antiguedad = float (0.0)
 prima_distancia = float (0.0)
 accidentes= input ("¿Cuantos accidentes ha tenido?:")
 antiguedad = input ("¿Antiguedad del conductor?:")
-prima = 0
+kilometros= input ("Introduzca el número de kilometros que ha realizado:")
+
+
+#antiguedad
 if antiguedad < 4:
-    prima = prima
+    prima_antiguedad = prima_antiguedad
 if antiguedad >= 4:
-    prima= 200 + 20 * (antiguedad - 4)
+    prima_antiguedad= 200 + 20 * (antiguedad - 4)
+
+#distancia recorrida
+kilometros = kilometros * 0.01 
+if kilometros > 400:
+    kilometros= 400
+    prima_distancia = 400
+if kilometros > 400:
+    kilometros = kilometros
+    prima_distancia = kilometros
+
+# accidentes
+prima= prima_antiguedad + prima_distancia
 
 if accidentes > 3:
-    resultado= float (0.0)
+    prima= float (0.0)
 if accidentes <= 3:
     if accidentes == 1:
-        if antiguedad> 4:
-            prima_antiguedad= prima_antiguedad
-            prima = (prima_antiguedad + prima_distancia) / 2
-    if not antiguedad < 4: 
-        prima_antiguedad = prima_antiguedad + float(200.0) + (antiguedad - 4) * float(20.00)
+        prima = prima / 2
+    if accidentes == 2:
+        prima = prima / 3
+    if accidentes == 3: 
+        prima = prima / 4 
+            
+   
 
-def resultado():
-    resutado= (prima_antiguedad + prima_distancia) / (accidentes + 1)
+
 
 print (resultado)
 
