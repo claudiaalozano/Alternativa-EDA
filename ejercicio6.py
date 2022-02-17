@@ -1,9 +1,6 @@
 # Descuento en los microprocesadores
 
 
-
-
-
 # La empresa UNTEL hace descuentos por la compra al por mayor de sus microprocesadores. 
 # Estos descuentos dependen de la cantidad de componentes pedidos y del cliente que los pide.
 
@@ -14,5 +11,6 @@
 
 # Establecer el algoritmo del cálculo del porcentaje de descuento concedido a un cliente dado para un pedido dado.
 
-def microprocesadores():
-    
+def microprocesadores(componentes, cliente):
+    if componentes > 10000 and componentes < 20000:
+        descuento = 0.1
