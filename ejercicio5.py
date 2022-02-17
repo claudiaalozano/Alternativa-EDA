@@ -1,4 +1,4 @@
-niños=5
+niños=8
 precio= 20*niños
 if niños<2:
     print(precio)
@@ -9,5 +9,5 @@ if niños==3:
 if niños==4:
     print(precio-precio*0.18)  
 if niños>=5:
-    print(precio)
+    print (precio-(precio*(0.18+(niños-4)*0.1)))
     
