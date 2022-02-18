@@ -1,6 +1,8 @@
 # Alternativa-EDA
 Mi grupo y yo hemos realizado 8 programas en python.
-La dirección de github es:
+
+
+La dirección de github es:https://github.com/claudiaalozano/Alternativa-EDA.git
 
 Ejercicio 1: Sucesor de un DÍA de la semana
 
