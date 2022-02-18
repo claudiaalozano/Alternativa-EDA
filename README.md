@@ -1,5 +1,5 @@
 # Alternativa-EDA
-Mi grupo y yo hemos realizado 8 programas en python.
+Esther, Carla, Teresa y Claudia hemos realizado 8 programas en python.
 
 
 La dirección de github es:https://github.com/claudiaalozano/Alternativa-EDA.git
