@@ -9,3 +9,16 @@
 #Escribir un algoritmo que toma como entrada las cuatro notas de un alumno y que calcula la media y la evaluación correspondiente.
 
 #El problema anterior se puede resolver definiendo una estructura de datos que, para un alumno, agrupa su media y la evaluación. Un elemento de este tipo calcula el algoritmo solicitado.
+
+
+nota1 = int(input("Introduce la primera nota: "))
+nota2 = int(input("Introduce la segunda nota: "))
+nota3 = int(input("Introduce la tercera nota: "))
+nota4 = int(input("Introduce la cuarta nota: "))
+suma = (nota1 + nota2 + nota3 + nota4) / 4
+if suma > 15:
+    print ("Usted es un alumno con talento, su media de las cuatro notas es: " , suma)
+if suma > 12 and suma < 15 :
+    print (" Usted es un alumno con capacidad, su media total es: " , suma)
+if suma < 12:
+    print ("Usted debe reorientarse, su media es: " , suma) 
